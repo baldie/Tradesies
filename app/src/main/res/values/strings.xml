@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Tradesies</string>
+
+    <string name="debug_item_title">Test item</string>
+    <string name="debug_item_distance">0.71 miles</string>
+    <string name="debug_item_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</string>
+
+    <string name="menu_browse">Browse</string>
+    <string name="menu_my_items">My items</string>
+    <string name="menu_my_account">My account</string>
+    <string name="menu_register">Register</string>
+    <string name="menu_log_in">Log in</string>
+    <string name="menu_log_out">Log out</string>
+    <string name="menu_help">Help</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="generic_error">An error has occurred</string>
+    <string name="action_example">Example action</string>
+
+    <string name="action_categories">Categories</string>
+    <string name="join_tradesies">Join Tradesies</string>
+    <string name="reg_with_facebook">Sign up with Facebook</string>
+    <string name="reg_with_twitter">Sign up with Twitter</string>
+    <string name="reg_with_google_plus">Sign up with Google+</string>
+    <string name="reg_manually">Register </string>
+    <string name="title_activity_manual_registration">ManualRegistration</string>
+
+    <string name="basic_info">Basic info</string>
+    <string name="change">change</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Retype password</string>
+    <string name="eula">By clicking "Join Tradesies", you are agreeing to the Terms and Conditions.</string>
+    <string name="verify_email_dialog_title">Almost there!</string>
+    <string name="verify_email_dialog_body">Check your email and follow the instructions to complete registration.</string>
+
+    <string name="marketplace">Marketplace</string>
+    <string name="my_items">My items</string>
+    <string name="add_item">Add item</string>
+    <string name="search">Search</string>
+    <string name="title_activity_add_item_camera">AddItemCamera</string>
+
+    <string name="edit_your_item">Item details</string>
+    <string name="photo_instructions">Snap a photo of the item you wish to trade.</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="primary_photo_instructions">Use this photo as the primary image</string>
+    <string name="next">Next</string>
+    <string name="title_activity_edit_item">Edit Item</string>
+    <string name="item_description">Description</string>
+    <string name="item_title">Title</string>
+    <string name="categories">Categories</string>
+    <string name="add_to_market">Add to market</string>
+    <string name="title_activity_item_detail">Item details</string>
+    <string name="title_activity_user_account">User profile</string>
+    <string name="report">Report</string>
+    <string name="propose_trade">Propose trade</string>
+    <string name="report_item">Report item</string>
+    <string name="comment">Comment</string>
+    <string name="please_select_reason">Please select a reason</string>
+    <string name="reported">Reported</string>
+    <string name="update_item">Update item</string>
+    <string name="cannot_delete_primary_image">Cannot delete primary image</string>
+    <string name="no_items_to_show">No items to show</string>
+    <string name="please_register_first">Please register first</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="you_have_been_logged_out">You have been logged out</string>
+    <string name="invalid_email">Please enter a valid email address</string>
+    <string name="delete_item">Delete item</string>
+    <string name="save_item">Save item</string>
+    <string name="member_since">Member since</string>
+    <string name="notify_me_of_new_trades">Notify me of new trades</string>
+    <string name="login_required">For security purposes please verify your log in credentials</string>
+    <string name="user_profile">User profile</string>
+    <string name="search_hint">search term</string>
+    <string name="title_activity_trade">TradeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="trade_these_items">Trade these items?</string>
+    <string name="start_trade">Propose this Trade!</string>
+    <string name="accept_proposed_trade">Accept Trade!</string>
+    <string name="decline_proposed_trade">Decline trade</string>
+    <string name="rate_user">Rate user</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="initial_message_hint">Type an introduction for your proposed trade</string>
+    <string name="default_trade_intro">Hi,\n\nI really like this!\n\nI\'ll trade you.</string>
+    <string name="title_activity_my_items_picker">MyItemsPicker</string>
+    <string name="trade_which_item">Trade which item?</string>
+    <string name="user_will_be_contacted">User will be contacted soon</string>
+    <string name="view_proposed_trade">View proposed trade</string>
+    <string name="trade_accepted">Trade Accepted</string>
+    <string name="trade_declined">Trade Declined</string>
+    <string name="proposed_trade">Proposed Trade</string>
+    <string name="someone_proposed_a_trade">Someone has proposed a trade</string>
+    <string name="you_proposed_a_trade">You have proposed a trade</string>
+    <string name="awesome">Awesome!</string>
+    <string name="trade_completed_message">They have been notified that you are interested in trading items.</string>
+    <string name="trade_declined_message">This trade has been declined.</string>
+    <string name="thanks">Thanks!</string>
+    <string name="transition">transition_name</string>
+    <string name="modify_this_item">Modify this item?</string>
+    <string name="edit_item_that_is_under_trade">This item is currently being traded. Are you sure you want to edit it?</string>
+    <string name="edit_item_that_has_been_traded">This item cannot be edited as it has already been traded.</string>
+    <string name="completed_trade">This trade has been accepted</string>
+    <string name="do_not_notify_me_of_new_trades">Do not notify me of new trades</string>
+    <string name="forgot_password"><u>forgot password</u></string>
+    <string name="unable_to_connect">Unable to connect to server</string>
+    <string name="have_an_account">Already have an account?</string>
+    <string name="log_in_here">Log in here.</string>
+    <string name="facebook_app_id">1770270359914305</string>
+    <string name="fb_login_protocol_scheme">fb1770270359914305</string>
+</resources>

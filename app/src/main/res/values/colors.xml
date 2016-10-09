@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tradesiesColorPrimary">#FFAA0000</color>
+    <color name="tradesiesColorPrimaryDark">#FF770000</color>
+    <color name="tradesiesColorPrimaryWeak">#FFAA6666</color>
+
+    <color name="tradesiesColorSecondary">#FF9DB2B1</color>
+    <color name="tradesiesColorSecondaryDark">#FF485C5A</color>
+    <color name="tradesiesColorSecondaryWeak">#FFD6E4E1</color>
+
+    <color name="windowBackgroundColor">#FFFFFF</color>
+    <color name="black_translucent">#80000000</color>
+    <color name="eggshell">#EEEEEE</color>
+    <color name="twitter_blue">#4099FF</color>
+    <color name="facebook_blue">#3b5998</color>
+    <color name="google_plus_orange">#d34836</color>
+    <color name="image_overlay_button">#88000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="hyperlink_blue">#FF0000FF</color>
+
+</resources>

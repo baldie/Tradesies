@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_rectangle"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img_item_one"
+            android:layout_height="110dp"
+            android:transitionName="@string/transition"
+            android:layout_width="110dp" />
+
+        <TextView
+            android:id="@+id/lbl_item_one_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/material_blue_grey_900"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_height="fill_parent"
+        android:layout_width="80dp"
+        android:src="@drawable/swap"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_rectangle"
+        android:padding="5dip">
+
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="110dp">
+            <ImageView
+                android:id="@+id/img_item_two"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/unknown_item"
+                android:scaleType="fitCenter"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/image_overlay_button"
+                android:text="@string/change"
+                android:id="@+id/btn_change_my_item"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/lbl_item_two_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/material_blue_grey_900"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>

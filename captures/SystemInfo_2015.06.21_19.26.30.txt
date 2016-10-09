@@ -1,0 +1,87 @@
+Applications Graphics Acceleration Info:
+Uptime: 397720857 Realtime: 595459830
+
+** Graphics info for pid 7948 [com.mobile.tradesies] **
+
+Recent DisplayList operations
+                    Save
+                    ClipRect
+                    DrawDisplayList
+                      Save
+                      ConcatMatrix
+                      DrawBitmap
+                      RestoreToCount
+                    DrawDisplayList
+                    RestoreToCount
+                  DrawDisplayList
+                    DrawPath
+                    Save
+                    ClipRect
+                    DrawDisplayList
+                      Save
+                      ConcatMatrix
+                      DrawBitmap
+                      RestoreToCount
+                    DrawDisplayList
+                    RestoreToCount
+          RestoreToCount
+  RestoreToCount
+DrawRect
+DrawRect
+DrawText
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawPath
+DrawPath
+DrawPath
+DrawPath
+DrawPath
+DrawPath
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+DrawBitmap
+multiDraw
+  DrawPatch
+multiDraw
+  DrawText
+multiDraw
+  DrawText
+DrawBitmap
+DrawBitmap
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         25655344 / 75497472
+  LayerCache                  0 / 50331648
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache             3925932 / 33554432
+  TextDropShadowCache         0 /  6291456
+  PatchCache                576 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /       16
+Total memory usage:
+  30630428 bytes, 29.21 MB
+
+Profile data in ms:
+
+	com.mobile.tradesies/com.mobile.tradesies.home.HomeActivity/android.view.ViewRootImpl@425d53e8
+View hierarchy:
+
+  com.mobile.tradesies/com.mobile.tradesies.home.HomeActivity/android.view.ViewRootImpl@425d53e8
+  70 views, 6.34 kB of display lists, 308 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        70
+Total DisplayList:  6.34 kB
+

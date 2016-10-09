@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mobile.tradesies.registration.RegistrationSelectionActivity"
+    android:background="@color/windowBackgroundColor">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/basic_info"
+        android:gravity="center_horizontal"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <RelativeLayout
+        android:layout_width="140dp"
+        android:transitionName="@string/transition"
+        android:layout_height="140dp">
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:src="@drawable/default_avatar"
+            android:scaleType="fitCenter"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/image_overlay_button"
+            android:text="@string/change"
+            android:id="@+id/btn_change_profile_image"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textColorHint="@color/hint_foreground_material_light"
+        android:hint="@string/name"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textColorHint="@color/hint_foreground_material_light"
+        android:hint="@string/email"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/txtPassword1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textColorHint="@color/hint_foreground_material_light"
+        android:hint="@string/password"/>
+    <EditText
+        android:id="@+id/txtPassword2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textColorHint="@color/hint_foreground_material_light"
+        android:hint="@string/repeat_password"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/hint_foreground_material_light"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:text="@string/eula"/>
+
+    <Button
+        android:id="@+id/btn_complete_manual_registration"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tradesiesColorPrimary"
+        android:layout_marginTop="20dip"
+        android:text="@string/join_tradesies"/>
+
+</LinearLayout>

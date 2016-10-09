@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/windowBackgroundColor"
+    tools:context="com.mobile.tradesies.item.AddItemCameraActivity"
+    android:transitionName="@string/transition"
+    android:weightSum="5">
+
+    <TextureView
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="3" />
+
+    <ImageView
+        android:id="@+id/captured_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:background="@color/black_translucent"
+        android:visibility="gone"
+        android:layout_weight="3" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_translucent"
+        android:layout_marginTop="-35dp">
+
+        <ImageButton
+            android:id="@+id/btn_flash_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flash_off"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical" />
+
+        <ImageButton
+            android:id="@+id/btn_snap_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical" />
+
+        <ImageButton
+            android:id="@+id/btn_delete_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical" />
+
+        <ImageButton
+            android:id="@+id/btn_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_file_image_box"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="2">
+
+        <TextView
+            android:text="@string/photo_instructions"
+            android:layout_marginTop="@dimen/spacing_heavy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/abc_primary_text_material_light"
+            android:paddingLeft="@dimen/spacing_large"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/chkPrimaryPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="@color/abc_primary_text_material_light"
+            android:layout_marginLeft="@dimen/spacing_large"
+            android:text="@string/primary_photo_instructions"
+            android:textSize="14sp"
+            android:layout_marginTop="@dimen/spacing_large" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:background="@color/tradesiesColorPrimary"
+            android:id="@+id/btn_next"
+            style="@style/Base.Widget.AppCompat.ActionButton"
+            android:layout_marginRight="@dimen/abc_button_padding_horizontal_material"
+            android:layout_marginBottom="@dimen/abc_button_padding_vertical_material"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/spacing_large" />
+    </LinearLayout>
+</LinearLayout>

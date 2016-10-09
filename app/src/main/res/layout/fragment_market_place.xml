@@ -1,0 +1,38 @@
+<com.mobile.tradesies.home.PullToRefresh
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MarketPlace$PlaceholderFragment"
+        android:background="@color/button_material_light">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:padding="4dp"
+            android:clipToPadding="false"
+            android:columnWidth="@dimen/item_width"
+            android:numColumns="auto_fit"
+            android:horizontalSpacing="4dp"
+            android:verticalSpacing="4dp"
+            android:stretchMode="columnWidth"/>
+
+        <ProgressBar
+            android:id="@+id/bkg_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+</com.mobile.tradesies.home.PullToRefresh>

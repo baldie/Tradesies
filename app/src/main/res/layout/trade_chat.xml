@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/rounded_rectangle"
+    android:padding="5dip"
+    android:gravity="center">
+
+    <ProgressBar
+        android:id="@+id/chat_progress_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="visible"
+        />
+
+    <EditText
+        android:id="@+id/txt_chat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btn_submit_chat"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textColorHint="@color/secondary_text_disabled_material_light"
+        android:hint="@string/type_a_message"
+        android:maxLines="1"
+        android:visibility="gone"
+        android:maxLength="512"
+        android:background="@color/windowBackgroundColor"
+        android:layout_alignParentBottom="true" />
+
+    <ImageButton
+        android:id="@+id/btn_submit_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@android:drawable/ic_menu_send"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <ListView
+        android:id="@+id/lv_chat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:listSelector="@android:color/transparent"
+        android:layout_marginBottom="45dp"
+        android:divider="@null">
+
+    </ListView>
+
+</RelativeLayout>

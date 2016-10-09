@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/button_material_light"
+    tools:context="com.mobile.tradesies.item.ItemDetailActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="com.mobile.tradesies.trade.TradeActivity">
+
+            <include layout="@layout/items_to_be_traded" />
+
+            <include android:id="@+id/pnl_trade_chat" layout="@layout/trade_chat" />
+
+            <EditText
+                android:id="@+id/txt_first_message"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/abc_primary_text_material_light"
+                android:textColorHint="@color/hint_foreground_material_light"
+                android:hint="@string/initial_message_hint"
+                android:gravity="top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lines="5"
+                android:maxLength="420"
+                android:inputType="textMultiLine"
+                android:text="@string/default_trade_intro" />
+
+            <Button
+                android:id="@+id/btn_start_trade"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tradesiesColorPrimary"
+                android:layout_marginTop="10dip"
+                android:text="@string/start_trade"/>
+
+            <Button
+                android:id="@+id/btn_accept_proposed_trade"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tradesiesColorPrimary"
+                android:layout_marginTop="10dip"
+                android:text="@string/accept_proposed_trade"/>
+
+            <Button
+                android:id="@+id/btn_decline_trade"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tradesiesColorSecondaryDark"
+                android:layout_marginTop="10dip"
+                android:text="@string/decline_proposed_trade"/>
+
+            <Button
+                android:id="@+id/btn_rate_user"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tradesiesColorPrimary"
+                android:layout_marginTop="10dip"
+                android:text="@string/rate_user"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

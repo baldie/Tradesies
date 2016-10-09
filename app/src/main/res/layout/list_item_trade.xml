@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D444"
+    android:gravity="center_vertical"
+    android:padding="5dp">
+
+    <ImageView android:id="@+id/trade_image"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView android:id="@+id/trade_text"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/trade_image"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_body_1_material"
+        android:textColor="#FFF" />
+
+    <TextView android:id="@+id/trade_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:textColor="#AAA" />
+</RelativeLayout>

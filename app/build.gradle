@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.mobile.tradesies"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 2
+        versionName "1.1"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    // 13751
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    // 9347
+    compile 'com.android.support:recyclerview-v7:23.0.+'
+    // 849
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.android.gms:play-services:9.6.1'
+    // 65 methods
+    compile 'com.pkmmte.view:circularimageview:1.1'
+    // 6734
+    compile 'it.sephiroth.android.library.horizontallistview:hlistview:1.2.2'
+    // 1997
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    // 929
+    compile 'com.nineoldandroids:library:2.4.0'
+    // 16091
+    compile 'com.google.firebase:firebase-core:9.6.1'
+    // 11585
+    compile 'com.daimajia.slider:library:1.1.2@aar'
+    //14912
+    compile 'com.facebook.android:facebook-android-sdk:4.15.0'
+    compile group: 'com.google.guava', name: 'guava', version: '18.0'
+    // 5728
+    compile('de.keyboardsurfer.android.widget:crouton:1.8.5@aar') {
+        // exclusion is not necessary, but generally a good idea.
+        exclude group: 'com.google.android', module: 'support-v4'
+    }
+}
+
+// Needed for firebase
+apply plugin: 'com.google.gms.google-services'

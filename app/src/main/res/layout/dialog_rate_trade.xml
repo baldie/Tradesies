@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp">
+
+    <RatingBar
+        android:layout_marginTop="10dp"
+        android:theme="@style/AppTheme"
+        android:id="@+id/stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5">
+
+    </RatingBar>
+
+    <EditText
+        android:id="@+id/txt_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/comment"
+        android:height="60dp"
+        android:lines="3"
+        android:maxLength="512"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_submit_rating"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rate_user"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

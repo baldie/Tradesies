@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "281282123438",
+    "firebase_url": "https://tradesies-cd998.firebaseio.com",
+    "project_id": "tradesies-cd998",
+    "storage_bucket": "tradesies-cd998.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281282123438:android:e6386bcaca099627",
+        "android_client_info": {
+          "package_name": "com.mobile.tradesies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281282123438-b99krjd329qab0nrp8jt5g49cgnt0r9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.tradesies",
+            "certificate_hash": "2DF929E9621BE848AB87CE73B78D6B704EE61F1F"
+          }
+        },
+        {
+          "client_id": "281282123438-hotjlq2sqrhs8t584c4109sndnmc51ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgkdxBuXKwzpokZfb4Rvloexj70AzPQbY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281282123438-hotjlq2sqrhs8t584c4109sndnmc51ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

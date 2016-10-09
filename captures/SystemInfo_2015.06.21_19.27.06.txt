@@ -1,0 +1,3 @@
+TASK com.mobile.tradesies id=206
+  ACTIVITY com.mobile.tradesies/.home.HomeActivity 4261b048 pid=7948
+    Failure while dumping the activity: java.io.IOException: Timeout

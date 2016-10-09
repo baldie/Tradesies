@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:height="60dp"
+        android:lines="3"
+        android:maxLength="512"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:height="60dp"
+        android:lines="3"
+        android:password="true"
+        android:maxLength="512"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_log_in"
+        android:background="@color/tradesiesColorPrimary"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/lnk_forgot_my_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textColor="@color/hyperlink_blue"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_vertical|right"
+        android:clickable="true"
+        android:focusable="true" />
+
+</LinearLayout>

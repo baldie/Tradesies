@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="activatedBackgroundIndicator">@drawable/activated_background</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/tradesiesColorPrimary</item>
+        <item name="colorPrimaryDark">@color/tradesiesColorPrimaryDark</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:editTextStyle">@style/AppTheme.EditTextStyle</item>
+        <item name="android:editTextBackground">@drawable/abc_edit_text_material</item>
+    </style>
+
+    <style name="AppTheme.EditTextStyle"  parent="@android:style/Widget.Holo.EditText">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+</resources>

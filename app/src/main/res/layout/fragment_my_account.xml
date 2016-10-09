@@ -1,0 +1,144 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/button_material_light">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:padding="4dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <RelativeLayout
+                android:id="@+id/pnl_user_image"
+                android:layout_width="140dp"
+                android:layout_height="140dp">
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/default_avatar"
+                    android:scaleType="fitCenter"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/image_overlay_button"
+                    android:text="@string/change"
+                    android:id="@+id/btn_change_profile_image"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/lbl_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:textColor="@color/primary_dark_material_dark"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/pnl_user_image"/>
+
+            <TextView
+                android:id="@+id/lbl_member_since_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/member_since"
+                android:textColor="@color/primary_dark_material_dark"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/lbl_user_name"
+                android:layout_toRightOf="@id/pnl_user_image"/>
+
+            <TextView
+                android:id="@+id/lbl_member_since"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_dark_material_dark"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/lbl_member_since_header"
+                android:layout_toRightOf="@id/pnl_user_image"/>
+
+            <TextView
+                android:id="@+id/lbl_last_seen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_dark_material_dark"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/lbl_member_since"
+                android:layout_toRightOf="@id/pnl_user_image"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp">
+
+            <ToggleButton
+                android:id="@+id/btn_notify_me_of_new_trades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_dark_material_dark"
+                 />
+
+            <TextView
+                android:id="@+id/lbl_notify_me_of_new_trades"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/primary_dark_material_dark"
+                android:text="@string/notify_me_of_new_trades"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:numStars="5"
+                android:isIndicator="true"
+                android:id="@+id/stars_averaged"
+                android:stepSize="1"
+                android:rating="0.0"
+                android:progressDrawable="@android:drawable/star_big_on"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:id="@+id/lbl_review_count"
+                android:textColor="@color/primary_dark_material_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_ratings"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/windowBackgroundColor"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

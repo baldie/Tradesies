@@ -1,0 +1,121 @@
+TASK com.mobile.tradesies id=206
+  ACTIVITY com.mobile.tradesies/.home.HomeActivity 4261b048 pid=7948
+    Local FragmentActivity 425d1cc0 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=false
+    Active Fragments in 425d2e98:
+      #0: NavigationDrawerFragment{425f2688 #0 id=0x7f0a0088}
+        mFragmentId=#7f0a0088 mContainerId=#0 mTag=null
+        mState=2 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=false mFromLayout=true mInLayout=true
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=true
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{425d2e98 in HomeActivity{425d1cc0}}
+        mActivity=com.mobile.tradesies.home.HomeActivity@425d1cc0
+        mSavedViewState={2131361928=AbsListView.SavedState{42f317e0 selectedId=-9223372036854775808 firstId=-1 viewTop=0 position=0 height=1701 filter=null checkState={0=true}}}
+        mView=android.widget.ListView{42601708 IFED.VC. ......ID -720,0-0,1701 #7f0a0088 app:id/navigation_drawer}
+        mInnerView=android.widget.ListView{42601708 IFED.VC. ......ID -720,0-0,1701 #7f0a0088 app:id/navigation_drawer}
+        Child FragmentManager{42600fd0 in NavigationDrawerFragment{425f2688}}:
+          FragmentManager misc state:
+            mActivity=com.mobile.tradesies.home.HomeActivity@425d1cc0
+            mContainer=android.support.v4.app.Fragment$1@42601358
+            mParent=NavigationDrawerFragment{425f2688 #0 id=0x7f0a0088}
+            mCurState=2 mStateSaved=true mDestroyed=false
+      #1: MarketPlaceFragment{425ffe28 #1 id=0x7f0a0077}
+        mFragmentId=#7f0a0077 mContainerId=#7f0a0077 mTag=null
+        mState=2 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{425d2e98 in HomeActivity{425d1cc0}}
+        mActivity=com.mobile.tradesies.home.HomeActivity@425d1cc0
+        mSavedViewState={2131361883=android.view.AbsSavedState$1@416519f8, 2131361929=android.support.v7.widget.Toolbar$SavedState@42f31998, 2131361946=android.support.v7.widget.RecyclerView$SavedState@42f319b0, 2131361947=android.widget.ProgressBar$SavedState@42f31a20, 2131361968=android.view.AbsSavedState$1@416519f8, 2131361977=android.view.AbsSavedState$1@416519f8, 2131361978=android.view.AbsSavedState$1@416519f8, 2131362022=android.view.AbsSavedState$1@416519f8}
+        mContainer=android.widget.FrameLayout{425ef498 V.E..... ........ 0,0-1080,1701 #7f0a0077 app:id/container}
+        mView=com.mobile.tradesies.home.PullToRefresh{426228f8 V.ED.... ........ 0,0-1080,1701 #7f0a00b0 app:id/swipe}
+        mInnerView=com.mobile.tradesies.home.PullToRefresh{426228f8 V.ED.... ........ 0,0-1080,1701 #7f0a00b0 app:id/swipe}
+        Child FragmentManager{42621d38 in MarketPlaceFragment{425ffe28}}:
+          FragmentManager misc state:
+            mActivity=com.mobile.tradesies.home.HomeActivity@425d1cc0
+            mContainer=android.support.v4.app.Fragment$1@42621db0
+            mParent=MarketPlaceFragment{425ffe28 #1 id=0x7f0a0077}
+            mCurState=2 mStateSaved=true mDestroyed=false
+    Added Fragments:
+      #0: NavigationDrawerFragment{425f2688 #0 id=0x7f0a0088}
+      #1: MarketPlaceFragment{425ffe28 #1 id=0x7f0a0077}
+    Fragments Created Menus:
+      #0: NavigationDrawerFragment{425f2688 #0 id=0x7f0a0088}
+    FragmentManager misc state:
+      mActivity=com.mobile.tradesies.home.HomeActivity@425d1cc0
+      mContainer=android.support.v4.app.FragmentActivity$2@425d3810
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{425d8dc0 V.E..... ... 0,0-1080,1776}
+        android.widget.LinearLayout{425d9aa0 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{425dce98 G.E..... ... 0,0-0,0 #102030e}
+          android.widget.FrameLayout{425dd2c8 V.E..... ... 0,75-1080,1776}
+            android.support.v7.internal.widget.FitWindowsLinearLayout{425dfdf0 V.E..... ... 0,0-1080,1701 #7f0a0064 app:id/action_bar_root}
+              android.support.v7.internal.widget.ViewStubCompat{425e04b8 G.E..... ... 0,0-0,0 #7f0a0065 app:id/action_mode_bar_stub}
+              android.support.v7.internal.widget.NativeActionModeAwareLayout{425e1190 V.E..... ... 0,0-1080,1701 #1020002 android:id/content}
+                android.support.v4.widget.DrawerLayout{425e77c0 VFE..... F.. 0,0-1080,1701 #7f0a0087 app:id/drawer_layout}
+                  android.widget.FrameLayout{425ef498 V.E..... ... 0,0-1080,1701 #7f0a0077 app:id/container}
+                    com.mobile.tradesies.home.PullToRefresh{426228f8 V.ED.... ... 0,0-1080,1701 #7f0a00b0 app:id/swipe}
+                      android.widget.RelativeLayout{42627380 V.E..... ... 0,0-1080,1701}
+                        android.support.v7.widget.Toolbar{42627e60 V.E..... ... 0,0-1080,168 #7f0a0089 app:id/toolbar}
+                          android.widget.TextView{4263e5a8 V.ED.... ... 180,43-515,124}
+                          android.widget.ImageButton{42635400 VFED..C. ... 0,0-168,168}
+                          android.support.v7.widget.ActionMenuView{425be650 V.E..... ... 792,0-1080,168}
+                            android.support.v7.internal.view.menu.ActionMenuItemView{42608ea8 VFED..CL ... 0,12-144,156 #7f0a00e6 app:id/menu_search_items}
+                            android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton{42614ce0 VFED..C. ... 144,12-288,156}
+                        android.support.v7.widget.RecyclerView{4262b278 V.ED.... ... 0,168-1080,1701 #7f0a009a app:id/gridView}
+                          android.widget.LinearLayout{426ce748 V.E...C. ... 21,21-531,644}
+                            android.widget.FrameLayout{426cea70 V.E..... ... 15,15-495,495}
+                              com.mobile.tradesies.ScaleImageView{45491990 V.ED.... ... 0,0-480,480 #7f0a005b app:id/image}
+                              com.readystatesoftware.viewbadger.BadgeView{4408e8d8 V.ED.... ... 363,15-465,121}
+                            android.widget.LinearLayout{4277acf0 V.E..... ... 15,495-495,608}
+                              com.pkmmte.view.CircularImageView{4465cb80 V.ED.... ... 0,15-96,113 #7f0a00b9 app:id/small_user_photo}
+                              android.widget.TextView{434111c8 V.ED.... ... 96,0-480,113 #7f0a00ba app:id/text}
+                          android.widget.LinearLayout{4408d920 V.E...C. ... 549,21-1059,644}
+                            android.widget.FrameLayout{426d0030 V.E..... ... 15,15-495,495}
+                              com.mobile.tradesies.ScaleImageView{454f4160 V.ED.... ... 0,0-480,480 #7f0a005b app:id/image}
+                              com.readystatesoftware.viewbadger.BadgeView{446b3a48 V.ED.... ... 363,15-465,121}
+                            android.widget.LinearLayout{4410f950 V.E..... ... 15,495-495,608}
+                              com.pkmmte.view.CircularImageView{44829ea0 V.ED.... ... 0,15-96,113 #7f0a00b9 app:id/small_user_photo}
+                              android.widget.TextView{455066d0 V.ED.... ... 96,0-480,113 #7f0a00ba app:id/text}
+                          android.widget.LinearLayout{42673328 V.E...C. ... 21,662-531,1342}
+                            com.mobile.tradesies.ScaleImageView{4559fce0 V.ED.... ... 15,15-495,495 #7f0a005b app:id/image}
+                            android.widget.LinearLayout{426ed218 V.E..... ... 15,495-495,665}
+                              com.pkmmte.view.CircularImageView{4545ae38 V.ED.... ... 0,72-96,170 #7f0a00b9 app:id/small_user_photo}
+                              android.widget.TextView{4559ff00 V.ED.... ... 96,0-480,170 #7f0a00ba app:id/text}
+                          android.widget.LinearLayout{426f8d20 V.E...C. ... 549,662-1059,1285}
+                            com.mobile.tradesies.ScaleImageView{455cf358 V.ED.... ... 15,15-495,495 #7f0a005b app:id/image}
+                            android.widget.LinearLayout{4408cdf8 V.E..... ... 15,495-495,608}
+                              com.pkmmte.view.CircularImageView{440aafd0 V.ED.... ... 0,15-96,113 #7f0a00b9 app:id/small_user_photo}
+                              android.widget.TextView{42738d88 V.ED.... ... 96,0-480,113 #7f0a00ba app:id/text}
+                          android.widget.LinearLayout{440a9d68 V.E...C. ... 549,1303-1059,1926}
+                            com.mobile.tradesies.ScaleImageView{425ca088 V.ED.... ... 15,15-495,495 #7f0a005b app:id/image}
+                            android.widget.LinearLayout{440be618 V.E..... ... 15,495-495,608}
+                              com.pkmmte.view.CircularImageView{426e8438 V.ED.... ... 0,15-96,113 #7f0a00b9 app:id/small_user_photo}
+                              android.widget.TextView{4409d988 V.ED.... ... 96,0-480,113 #7f0a00ba app:id/text}
+                          android.widget.LinearLayout{440c0ac0 V.E...C. ... 21,1360-531,1983}
+                            com.mobile.tradesies.ScaleImageView{42706298 V.ED.... ... 15,15-495,495 #7f0a005b app:id/image}
+                            android.widget.LinearLayout{44106148 V.E..... ... 15,495-495,608}
+                              com.pkmmte.view.CircularImageView{426fb588 V.ED.... ... 0,15-96,113 #7f0a00b9 app:id/small_user_photo}
+                              android.widget.TextView{440fbb40 V.ED.... ... 96,0-480,113 #7f0a00ba app:id/text}
+                        android.widget.ProgressBar{426316d8 I.ED.... ... 468,778-612,922 #7f0a009b app:id/bkg_progress}
+                      android.support.v4.widget.CircleImageView{42623ea0 G.ED.... ... 470,-140-610,0}
+                  android.widget.ListView{42601708 IFED.VC. ... -720,0-0,1701 #7f0a0088 app:id/navigation_drawer}
+                    android.widget.RelativeLayout{440fb8b8 V.E..... ... 0,0-720,144 #7f0a00ca app:id/menu_item_layout}
+                      android.widget.ImageView{43416fb0 V.ED.... ... 48,24-144,120 #7f0a00cb app:id/img_drawer_menu_icon}
+                      android.widget.TextView{440be8e0 V.ED.... ... 192,0-696,144 #7f0a00cc app:id/img_drawer_menu_text}
+                    android.widget.RelativeLayout{440fccb8 V.E..... ... 0,143-720,287 #7f0a00ca app:id/menu_item_layout}
+                      android.widget.ImageView{44111e78 V.ED.... ... 48,24-144,120 #7f0a00cb app:id/img_drawer_menu_icon}
+                      android.widget.TextView{44706558 V.ED.... ... 192,0-696,144 #7f0a00cc app:id/img_drawer_menu_text}
+                    android.widget.RelativeLayout{445e7500 V.E..... ... 0,286-720,430 #7f0a00ca app:id/menu_item_layout}
+                      android.widget.ImageView{455aed50 V.ED.... ... 48,24-144,120 #7f0a00cb app:id/img_drawer_menu_icon}
+                      android.widget.TextView{440ab348 V.ED.... ... 192,0-696,144 #7f0a00cc app:id/img_drawer_menu_text}
+                    android.widget.RelativeLayout{446b37b0 V.E..... ... 0,429-720,573 #7f0a00ca app:id/menu_item_layout}
+                      android.widget.ImageView{42702fd8 V.ED.... ... 48,24-144,120 #7f0a00cb app:id/img_drawer_menu_icon}
+                      android.widget.TextView{45501fa8 V.ED.... ... 192,0-696,144 #7f0a00cc app:id/img_drawer_menu_text}
+                    android.widget.RelativeLayout{4544d2a8 V.E..... ... 0,572-720,716 #7f0a00ca app:id/menu_item_layout}
+                      android.widget.ImageView{427132f0 V.ED.... ... 48,24-144,120 #7f0a00cb app:id/img_drawer_menu_icon}
+                      android.widget.TextView{426c98c8 V.ED.... ... 192,0-696,144 #7f0a00cc app:id/img_drawer_menu_text}

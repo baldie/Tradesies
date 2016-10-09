@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MarketPlace">
+    <item android:id="@+id/menu_search_items"
+        android:title="@string/search"
+        android:icon="@drawable/ic_magnify"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item android:id="@+id/action_categories" android:title="@string/action_categories"
+        android:orderInCategory="100" app:showAsAction="never" android:visible="false" />
+</menu>

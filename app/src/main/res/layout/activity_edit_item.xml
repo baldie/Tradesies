@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:background="@color/windowBackgroundColor"
+    tools:context="com.mobile.tradesies.item.EditItemActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="@string/edit_your_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_material_dark"
+            android:textSize="@dimen/abc_text_size_headline_material" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:weightSum="7">
+
+            <ImageView
+                android:layout_weight="5"
+                android:layout_width="0px"
+                android:layout_height="200dp"
+                android:id="@+id/currentImage"
+                android:scaleType="fitCenter"
+                android:transitionName="@string/transition"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_width="0px"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/chkPrimaryPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_material_dark"
+                    android:text="Pimary" />
+
+                <ImageButton
+                    android:id="@+id/btn_delete_photo"
+                    android:src="@drawable/ic_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <it.sephiroth.android.library.widget.HListView
+            android:id="@+id/lv_item_photos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/txt_title"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:textColor="@color/abc_primary_text_material_light"
+            android:textColorHint="@color/hint_foreground_material_light"
+            android:hint="@string/item_title"
+            android:maxLength="80"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txt_description"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/abc_primary_text_material_light"
+            android:textColorHint="@color/hint_foreground_material_light"
+            android:hint="@string/item_description"
+            android:gravity="top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="5"
+            android:maxLength="420"
+            android:inputType="textMultiLine"
+            android:editable="true"
+            android:autoText="false"/>
+
+        <Button
+            android:id="@+id/btn_categories"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/categories"/>
+
+        <Button
+            android:id="@+id/btn_save_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tradesiesColorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_to_market"/>
+
+        <Button
+            android:id="@+id/btn_delete_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/delete_item"/>
+    </LinearLayout>
+</ScrollView>
