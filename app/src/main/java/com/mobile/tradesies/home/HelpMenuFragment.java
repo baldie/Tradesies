@@ -9,9 +9,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -44,16 +45,16 @@ public class HelpMenuFragment extends Fragment implements TradesiesFragment {
 
         Toolbar toolbar = (Toolbar)mRootView.findViewById(R.id.toolbar);
         if (toolbar != null) {
-            ((ActionBarActivity) getActivity()).setSupportActionBar(toolbar);
+            ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
 
-            ActionBar actionBar = ((ActionBarActivity) getActivity()).getSupportActionBar();
+            ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setHomeButtonEnabled(true);
             actionBar.setTitle(getActivity().getString(R.string.marketplace));
         }
 
         DrawerLayout drawer = (DrawerLayout) getActivity().findViewById(R.id.drawer_layout);
-        drawer.setDrawerShadow(R.drawable.drawer_shadow, Gravity.START);
+        drawer.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
 
         refreshMenu();
 

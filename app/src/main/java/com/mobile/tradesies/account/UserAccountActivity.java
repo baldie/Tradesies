@@ -2,12 +2,12 @@ package com.mobile.tradesies.account;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import com.mobile.tradesies.R;
 
-public class UserAccountActivity extends ActionBarActivity {
+public class UserAccountActivity extends AppCompatActivity {
 
     final public static String USER_ID = "USER_ID";
     @Override

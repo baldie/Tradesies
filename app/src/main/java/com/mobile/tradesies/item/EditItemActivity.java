@@ -14,8 +14,8 @@ import android.os.Environment;
 import android.os.Handler;
 import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -61,7 +61,7 @@ import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
 
-public class EditItemActivity extends ActionBarActivity {
+public class EditItemActivity extends AppCompatActivity {
     private it.sephiroth.android.library.widget.HListView _lvItemPhotos = null;
     private List<ItemImageWrapper> _thumbs = new ArrayList<>();
     private ArrayAdapter<ItemImageWrapper> mThumbnailsAdapter = null;

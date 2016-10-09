@@ -10,7 +10,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.TextureView;
 import android.view.View;
@@ -27,7 +27,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class AddItemCameraActivity extends ActionBarActivity {
+public class AddItemCameraActivity extends AppCompatActivity {
 
     private ImageButton mBtnToggleFlash = null;
     private ImageButton mBtnSnapPhoto = null;
